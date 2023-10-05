@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.calculator {
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(57, 181, 222, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(26, 34, 142, 0.37);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 10px;
+    border: 1px solid rgba(178, 175, 175, 0.18);
+    padding: 20px ;
+}
+
+#display {
+    margin: 0 auto;
+}
+
+.calculator input {
+    border: none;
+    outline: none;
+    background: rgba(236, 236, 236, 0.512);
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: larger;
+    color: #000000;
+    font-family: 'AR One Sans', sans-serif;
+}
+
+.Row1 {
+    margin-top: 2rem;
+}
+
+.Row1 button,
+.Row2 button,
+.Row3 button,
+.Row4 button {
+    /* background: #000; */
+    border: none;
+    color: #000000;
+    padding: 15px 25px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    transition: 1s;
+    margin: 0 5px;
+    font-family: 'AR One Sans', sans-serif;
+}
+
+.Row1 button:hover,
+.Row2 button:hover,
+.Row3 button:hover,
+.Row4 button:hover {
+    transition: 1s;
+    box-shadow: rgba(39, 39, 55, 0.25) 0px 30px 60px -12px inset, rgba(66, 27, 27, 0.3) 0px 18px 36px -18px inset;
+}
